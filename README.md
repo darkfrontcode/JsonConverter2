@@ -18,7 +18,7 @@ The main idea here is to make a simple app using angular 4, Typescript, webpack,
 yarn or npm install
 
 > Production
-* npm run build
+* npm run build => bundle front-end files
 * Build and run the solution.
 
 > Development [ Node and Webpack ]
