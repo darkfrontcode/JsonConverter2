@@ -15,10 +15,18 @@ The main idea here is to make a simple app using angular 4, Typescript, webpack,
 	</appSettings>
 ```
 
-Build and run the solution.
+yarn or npm install
+
+> Production
+* npm run build [ Prod ]
+* Build and run the solution.
+
+> Development [ Node and Webpack ]
+* npm start
+* Open localhost:8080 in your favorite browser
 
 ### Information
 
-Html, css and javascript files are in [App_Public](https://github.com/darkfrontcode/JsonConverter/tree/master/JsonConverter/App_Public) folder.
+Front-end files in [App_Public/build](https://github.com/darkfrontcode/JsonConverter2/tree/master/JsonConverter/App_Public/build) folder.
 
 
