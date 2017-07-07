@@ -27,6 +27,6 @@ yarn or npm install
 
 ### Information
 
-Front-end files in [App_Public/build](https://github.com/darkfrontcode/JsonConverter2/tree/master/JsonConverter/App_Public/build) folder.
+Front-end files in [build](https://github.com/darkfrontcode/JsonConverter2/tree/master/JsonConverter/App_Public/build) folder.
 
 
