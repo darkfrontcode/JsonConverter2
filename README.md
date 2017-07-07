@@ -1,4 +1,4 @@
-# Contact List with .NET Web Api 4.6 and Angular 1.6
+# Contact List with .NET Web Api 4.6 and Angular 4 Typescript
 
 ### Description
 
