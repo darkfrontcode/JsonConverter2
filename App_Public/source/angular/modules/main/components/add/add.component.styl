@@ -1,0 +1,72 @@
+@import '../../../../../stylus/colors/*'
+
+:host
+	display flex
+	flex-grow 1
+	justify-content center
+
+#add-form-wrapper
+	overflow-y auto
+	flex-wrap nowrap
+	padding 40px 0
+	
+	&::-webkit-scrollbar
+		width 6px
+
+	&::-webkit-scrollbar-track
+		background-color transparent
+
+
+	&::-webkit-scrollbar-thumb
+		border-radius 6px
+		background $blue-light
+
+#add-form
+	box-sizing border-box
+	border-radius 3px
+	border 2px solid #7ac0f8
+	padding 40px
+	width 306px
+	display block
+	margin auto
+
+	.button-wrapper
+		margin-top 40px
+
+	h3
+		font-family Lobster,cursive
+		font-size 24px
+		color white
+		margin 0 0 40px 0;
+
+	input[type=text]
+	textarea
+		font-family Lobster, cursive
+		font-size 16px
+		color white
+		background transparent
+		border 0
+		border-bottom 2px solid #7ac0f8
+		height 50px
+		width 100%
+		line-height 50px
+		text-align center
+		
+		&:focus
+			outline none
+		
+		&::-webkit-input-placeholder
+			color white
+
+		&::-moz-placeholder
+			color white
+			
+		&:-ms-input-placeholder
+			color white
+
+		&:-moz-placeholder
+			color white
+	
+	textarea
+		height 140px
+		resize none

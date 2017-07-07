@@ -1,0 +1,39 @@
+#add-form-wrapper.col-xs
+	form#add-form(
+		(ngSubmit)="save(contactForm.value)",
+		[formGroup]="contactForm"
+	)
+		input(
+			type="text",
+			formControlName="Name",
+			placeholder='Name'
+		)
+		input(
+			type="text",
+			formControlName="Email",
+			placeholder='Email'
+		)
+		input(
+			type="text",
+			formControlName="Phone",
+			placeholder='Phone'
+		)
+		input(
+			type="text",
+			formControlName="Subject",
+			placeholder='Subject'
+		)
+		textarea(
+			formControlName="Message",
+			placeholder='Message', 
+			cols='30', 
+			rows='10',
+		)
+		
+		.button-wrapper.row.grow.between-xs
+			button.btn-red.col-xs-4(uiSref="list") Back
+			input.btn-green.col-xs-4(
+				type='submit',
+				value='Save',
+				[disabled]="!contactForm.valid"
+			)

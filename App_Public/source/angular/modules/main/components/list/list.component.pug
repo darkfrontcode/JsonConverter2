@@ -1,0 +1,12 @@
+.row.col-xs(*ngIf='contacts && contacts.length > 0')
+	#card-list(class="scrollbar-blue row col-xs between-xs middle-xs center-xs")
+		card(
+			[contact]="contact", 
+			(delete)='delete($event)', 
+			*ngFor='let contact of contacts'
+		)
+.row.col-xs.middle-xs.center-xs(*ngIf='contacts && contacts.length == 0')
+	#no-contacts
+		| You don't have any contacts 
+		br
+		| right now.

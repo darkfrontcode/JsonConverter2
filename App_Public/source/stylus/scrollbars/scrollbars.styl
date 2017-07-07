@@ -1,0 +1,24 @@
+/* ==========================================================================
+	-- Scrollbars
+========================================================================== */
+   
+@import '../colors/*'
+
+/* ==========================================================================
+	-- Blured Gray [ Scrollbar ]
+========================================================================== */
+
+scrollbar-blue()
+	&::-webkit-scrollbar
+		width 6px
+
+	&::-webkit-scrollbar-track
+		background-color transparent
+
+
+	&::-webkit-scrollbar-thumb
+		border-radius 6px
+		background $blue-light
+		
+.scrollbar-blue
+	scrollbar-blured-gray()
