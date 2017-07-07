@@ -3,7 +3,7 @@
 ### Description
 
 Simple project with RESTfull verbs that CRUD a contact list.
-The main idea here is to make a simple app that dont demands module bundler like a webpack or gulp and runs on IE10.
+The main idea here is to make a simple app using angular 4, Typescript, webpack, stylus, pug and .NET Web API in the back-end.
 
 ### Instructions
 
